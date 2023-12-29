@@ -1,0 +1,57 @@
+\hypertarget{classCalculator}{}\doxysubsection{Класс Calculator}
+\label{classCalculator}\index{Calculator@{Calculator}}
+
+
+Класс для операции умножение вектора  
+
+
+
+
+{\ttfamily \#include $<$Calculator.\+h$>$}
+
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCalculator_a79c7372f7f371a787db2ad587e22ea93}{Calculator}} (std\+::vector$<$ int16\+\_\+t $>$input\+\_\+data)
+\begin{DoxyCompactList}\small\item\em Вычисление \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classCalculator_ab8c16f1e36de19431ba941c408d32b00}\label{classCalculator_ab8c16f1e36de19431ba941c408d32b00}} 
+int16\+\_\+t \mbox{\hyperlink{classCalculator_ab8c16f1e36de19431ba941c408d32b00}{send\+\_\+res}} ()
+\begin{DoxyCompactList}\small\item\em Получение результата вычислений \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCalculator_af87f20a206b2f9a8c4514484b120ef4a}\label{classCalculator_af87f20a206b2f9a8c4514484b120ef4a}} 
+int16\+\_\+t {\bfseries results}
+\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Подробное описание}
+Класс для операции умножение вектора 
+
+Вектор указывается в параметрах конструктора. Для получения результат вычислений используется метод send\+\_\+res. 
+
+\doxysubsubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classCalculator_a79c7372f7f371a787db2ad587e22ea93}\label{classCalculator_a79c7372f7f371a787db2ad587e22ea93}} 
+\index{Calculator@{Calculator}!Calculator@{Calculator}}
+\index{Calculator@{Calculator}!Calculator@{Calculator}}
+\doxyparagraph{\texorpdfstring{Calculator()}{Calculator()}}
+{\footnotesize\ttfamily Calculator\+::\+Calculator (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int16\+\_\+t $>$}]{input\+\_\+data }\end{DoxyParamCaption})}
+
+
+
+Вычисление 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em input\+\_\+data} & Вектор данных. Не должен быть пустой. Тип данных int16\+\_\+t Исключения не возбуждаются \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Предупреждения}
+При переполнении будет возвращено максимальное значение int16\+\_\+t или минимальное значение int16\+\_\+t 
+\end{DoxyWarning}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Calculator_8h}{Calculator.\+h}}\item 
+Calculator.\+cpp\end{DoxyCompactItemize}

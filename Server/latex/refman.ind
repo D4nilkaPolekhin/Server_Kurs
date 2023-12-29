@@ -1,0 +1,71 @@
+\begin{theindex}
+
+  \item {Calculator}, \hyperpage{3}
+    \subitem {Calculator}, \hyperpage{3}
+  \item {Calculator.h}, \hyperpage{12}
+  \item {Client\_Communicate}, \hyperpage{4}
+    \subitem {connection}, \hyperpage{4}
+    \subitem {generate\_salt}, \hyperpage{5}
+    \subitem {md5}, \hyperpage{5}
+  \item {Client\_Communicate.h}, \hyperpage{13}
+  \item {comm\_proc}
+    \subitem {Interface}, \hyperpage{8}
+  \item {connect\_to\_base}
+    \subitem {Connector\_to\_base}, \hyperpage{6}
+  \item {connection}
+    \subitem {Client\_Communicate}, \hyperpage{4}
+  \item {Connector\_to\_base}, \hyperpage{5}
+    \subitem {connect\_to\_base}, \hyperpage{6}
+    \subitem {get\_data}, \hyperpage{6}
+  \item {Connector\_to\_base.h}, \hyperpage{13}
+  \item {crit\_err}, \hyperpage{6}
+    \subitem {crit\_err}, \hyperpage{7}
+
+  \indexspace
+
+  \item {Errors.h}, \hyperpage{14}
+
+  \indexspace
+
+  \item {generate\_salt}
+    \subitem {Client\_Communicate}, \hyperpage{5}
+  \item {get\_data}
+    \subitem {Connector\_to\_base}, \hyperpage{6}
+  \item {getCurrentDateTime}
+    \subitem {Logger}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Interface}, \hyperpage{8}
+    \subitem {comm\_proc}, \hyperpage{8}
+  \item {Interface.h}, \hyperpage{15}
+
+  \indexspace
+
+  \item {Logger}, \hyperpage{9}
+    \subitem {getCurrentDateTime}, \hyperpage{9}
+    \subitem {set\_path}, \hyperpage{10}
+    \subitem {writelog}, \hyperpage{10}
+  \item {Logger.h}, \hyperpage{16}
+
+  \indexspace
+
+  \item {md5}
+    \subitem {Client\_Communicate}, \hyperpage{5}
+
+  \indexspace
+
+  \item {no\_crit\_err}, \hyperpage{11}
+    \subitem {no\_crit\_err}, \hyperpage{11}
+
+  \indexspace
+
+  \item {set\_path}
+    \subitem {Logger}, \hyperpage{10}
+
+  \indexspace
+
+  \item {writelog}
+    \subitem {Logger}, \hyperpage{10}
+
+\end{theindex}
